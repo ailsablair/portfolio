@@ -1,0 +1,78 @@
+/* ==========================================================================
+   Global Design Tokens & Base Styles
+   ========================================================================== */
+
+:root {
+  /* System Typography */
+  --font-mono-global: ui-monospace, "SF Mono", "SFMono-Regular", "Cascadia Code", "Cascadia Mono", Menlo, Consolas, "Liberation Mono", monospace;
+  
+  /* Color Palette */
+  --color-bg-global: #FAFAFA;
+  --color-text-global: #1C1C1C;
+  --color-text-heading-1: #1C1C1C;
+  --color-link-global: #EC379B;
+}
+
+/* Base Body Setup */
+body {
+   font-size: 16px;
+   font-family: var(--font-mono-global);
+   color: var(--color-text-global);
+   background-color: var(--color-bg-global);
+   margin: 0;
+   padding: 24px;
+   box-sizing: border box;
+   line-height: 1.5;
+   -webkit-font-smoothing: antialiased;
+}
+
+/* ==========================================================================
+   Typography Elements
+   ========================================================================== */
+
+h1 {
+  font-size: 64px;
+  font-weight: 600; /* Semibold */
+  color: var(--color-text-heading-1);
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 500; /* Medium */
+  color: inherit;   /* Explicitly inherits the global font color default (#1C1C1C) */
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 700; /* Bold */
+  color: var(--color-text-heading-1);
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 500; /* Medium */
+  color: inherit;   /* Explicitly inherits the global font color default (#1C1C1C) */
+  margin-top: 4px;
+  margin-bottom: 12px;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+a {
+  color: var(--color-link-global);
+  text-decoration: #EC379B;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+a:hover {
+  text-decoration: bold;
+}
