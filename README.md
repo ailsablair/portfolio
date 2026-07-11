@@ -13,7 +13,7 @@ The current architecture uses Geminis CLI as the "brain" or supervisor for the f
 <br>
 <br><img src="portfolio-flow.svg" alt="An image showing the delivery process for ailsablair.com" width="500" align="center"
     >   
-
+<br>
 ### RELAUNCH OF www
 - Creating an infrastructure of **APIs, CLIs and MCP Servers** to push www updates from _Figma_, using **No-Code AI.**
 - Adhering to all necessary **compliance and security restrictions** associated with a **_Level 2 (Secret) Security Clearance_** within the Nuclear industry.
