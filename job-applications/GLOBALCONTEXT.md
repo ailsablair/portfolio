@@ -1,5 +1,5 @@
 # GLOBAL CONTEXT
-This file provides key context to the global approach of how the creation of custom cover letters, targeted resumes, and the inclusion of any security clearance details.
+This file provides key context to the global approach for creating custom cover letters, targeting resumes, and including security clearance details.
 
 ## GLOBAL RESUME CONTEXT
 Key resume-based information that will help in how they interact with cover letters and other details.
