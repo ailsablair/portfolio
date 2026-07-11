@@ -26,7 +26,7 @@ Key global cover letter notes and resources:
 ## GLOBAL EXTRA DETAILS CONTEXT
 This is where you can mention any extraordinary details you want, helping you stand out from other candidates in both your resume and cover letter. These aren't Certifications, Awards you've won or Patents you own - but are more Security Clearances, Compliance, etc.
 
-Key global resume notes and resources:
+Key global extra details notes and resources:
 
 - Item 1
 - Item 2
