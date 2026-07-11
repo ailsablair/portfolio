@@ -12,10 +12,8 @@ Improving the architecture to cut down on cost and maximize accuracy across my p
 
 ### CURRENT ARCHITECTURE
 The current architecture uses Geminis CLI as the "brain" or supervisor for the flow. You'll notice that each "agent" or software integration is designed to talk to all other agents in the flow. This maximizes the accuracy of context across the flow, but comes at a price, literally. The new architecture will limit "agents" interactions with other core parts of the flow, ultimately cutting down on recurring monthly cost for my wallet 💸
-
 <br>
 <br>
-
   <img src="portfolio-flow.svg" alt="An image showing the delivery process for ailsablair.com" width="500" align="center"
     >   
 
