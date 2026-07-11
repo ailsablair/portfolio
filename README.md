@@ -9,7 +9,7 @@ For access to case studies prior to _Nuclear Promise X_ go to the [old version o
 Improving the architecture to cut down on cost and maximize accuracy across my process.
 
 ### CURRENT ARCHITECTURE
-<img src="./process-flow.svg" alt="An image showing the delivery process for ailsablair.com" width="500" align="center">   
+<img src="process-flow.svg" alt="An image showing the delivery process for ailsablair.com" width="500" align="center">   
 
 ### RELAUNCH OF www
 - Creating an infrastructure of **APIs, CLIs and MCP Servers** to push www updates from _Figma_, using **No-Code AI.**
