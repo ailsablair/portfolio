@@ -21,10 +21,10 @@ The current architecture uses Geminis CLI as the "brain" or supervisor for the f
 2. Add limitations to how the process can interact with MUI / Joy UI - content cannot be overwritten, only needs to be pulled for new components within Storybook
 3. Instead of pushing all project documentation & context through the entire process, we limit the amount of information the AI Supervisor is processing at _each_ stage, saving costs and improving efficiency
 4. Limit two-way communication to key stages of the process
-      4a. AI Supervisor (chat-interface) ↔︎ Figma / Code Connect CLI
-      4b. AI Supervisor (chat-interface) ↔︎ Worflow Context
-      4c. AI Supervisor (chat-interface) ↔︎ Github MCP Server
-      4d. Figma / Code Connect CLI ↔︎ Custom Design System (Storybook)
+<br>      4a. AI Supervisor (chat-interface) ↔︎ Figma / Code Connect CLI 
+<br>      4b. AI Supervisor (chat-interface) ↔︎ Worflow Context
+<br>      4c. AI Supervisor (chat-interface) ↔︎ Github MCP Server
+<br>      4d. Figma / Code Connect CLI ↔︎ Custom Design System (Storybook)
 9. Push updates only - limit how much data we process at each stage of the process
 <br>
 <br><img src="portfolio-update.svg" alt="An image showing the newly proposed delivery process for ailsablair.com" width="500" align="center"
