@@ -17,11 +17,10 @@ The current architecture uses Geminis CLI as the "brain" or supervisor for the f
 <br>
 
 #### PROPOSED ARCHITECTURE
-    <img src="portfolio-update.svg" alt="An image showing the newly proposed delivery process for ailsablair.com" width="500" align="center"
-    >   
+<img src="portfolio-update.svg" alt="An image showing the newly proposed delivery process for ailsablair.com" width="500" align="center">   
 <br>
 <br>
-    ** Awaiting further iteration; **Hypothesis:** More efficiencies & savings can be made by leveraging part of an API instead
+    **Awaiting further iteration; **Hypothesis:** More efficiencies & savings can be made by leveraging part of an API instead
 <br>
 <br>
 
