@@ -9,13 +9,22 @@ For access to case studies prior to _Nuclear Promise X_ go to the [old version o
 Improving the architecture to cut down on cost and maximize accuracy across my process.
 
 #### CURRENT ARCHITECTURE
-The current architecture uses Geminis CLI as the "brain" or supervisor for the flow. You'll notice that each "agent" or software integration is designed to talk to all other agents in the flow. This maximizes the accuracy of context across the flow, but comes at a price, literally. The new architecture will limit "agents" interactions with other core parts of the flow, ultimately cutting down on recurring monthly cost for my wallet 💸
-<br>
 <br><img src="portfolio-flow.svg" alt="An image showing the delivery process for ailsablair.com" width="500" align="center"
     >   
 <br>
+The current architecture uses Geminis CLI as the "brain" or supervisor for the flow. You'll notice that each "agent" or software integration is designed to talk to all other agents in the flow. This maximizes the accuracy of context across the flow, but comes at a price, literally. The new architecture will limit "agents" interactions with other core parts of the flow, ultimately cutting down on recurring monthly cost for my wallet 💸
+<br>
+<br>
 
 #### PROPOSED ARCHITECTURE
+    <img src="portfolio-update.svg" alt="An image showing the newly proposed delivery process for ailsablair.com" width="500" align="center"
+    >   
+<br>
+<br>
+    ** Awaiting further iteration; **Hypothesis:** More efficiencies & savings can be made by leveraging part of an API instead
+<br>
+<br>
+
 **KEY UPDATES**
 1. Website to only updates after manual push from Github; user _must_ review pull request(s) created by Stitch / Jules prior
 2. Add limitations to how the process can interact with MUI / Joy UI - content cannot be overwritten, only needs to be pulled for new components within Storybook
@@ -35,8 +44,3 @@ The current architecture uses Geminis CLI as the "brain" or supervisor for the f
 - Access to new case studies documenting more current projects using **Automation, AI, Chatbot Interfaces (Internal tools) & APIs/CLIs/MCP Servers.**
 - Updates to case studies from [ailsablairportfolio.](https://ablair.webflow.io)
 - **UI updates automatically pushed** via the above infrastructure, using the **no-code approach** all hosted right here on my [public www Github repo](https://github.com/ailsablair/www)
-
-    <img src="portfolio-update.svg" alt="An image showing the newly proposed delivery process for ailsablair.com" width="500" align="center"
-    >   
-<br><br>
-    ** Awaiting further iteration; **Hypothesis:** More efficiencies & savings can be made by leveraging part of an API instead
