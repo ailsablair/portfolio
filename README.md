@@ -27,9 +27,6 @@ The current architecture uses Geminis CLI as the "brain" or supervisor for the f
 <br>      4d. Figma / Code Connect CLI ↔︎ Custom Design System (Storybook)
 9. Push updates only - limit how much data we process at each stage of the process
 <br>
-<br><img src="portfolio-update.svg" alt="An image showing the newly proposed delivery process for ailsablair.com" width="500" align="center"
-    >   
-<br>** Awaiting further iteration; **Hypothesis:** More efficiencies & savings can be made by leveraging part of an API instead
 
 #### RELAUNCH OF www
 - Creating an infrastructure of **APIs, CLIs and MCP Servers** to push www updates from _Figma_, using **No-Code AI.**
@@ -38,3 +35,8 @@ The current architecture uses Geminis CLI as the "brain" or supervisor for the f
 - Access to new case studies documenting more current projects using **Automation, AI, Chatbot Interfaces (Internal tools) & APIs/CLIs/MCP Servers.**
 - Updates to case studies from [ailsablairportfolio.](https://ablair.webflow.io)
 - **UI updates automatically pushed** via the above infrastructure, using the **no-code approach** all hosted right here on my [public www Github repo](https://github.com/ailsablair/www)
+
+    <img src="portfolio-update.svg" alt="An image showing the newly proposed delivery process for ailsablair.com" width="500" align="center"
+    >   
+<br><br>
+    ** Awaiting further iteration; **Hypothesis:** More efficiencies & savings can be made by leveraging part of an API instead
