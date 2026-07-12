@@ -29,8 +29,8 @@ The current architecture uses Geminis CLI as the "brain" or supervisor for the f
 <br>
 <br><img src="portfolio-update.svg" alt="An image showing the newly proposed delivery process for ailsablair.com" width="500" align="center"
     >   
-<br>** Awaiting further iteration; *Hypothesis: More efficiencies & savings can be made by leveraging part of an API instead*
-    > <br> 
+<br>** Awaiting further iteration; _Hypothesis: More efficiencies & savings can be made by leveraging part of an API instead_
+    <br> 
 
 #### RELAUNCH OF www
 - Creating an infrastructure of **APIs, CLIs and MCP Servers** to push www updates from _Figma_, using **No-Code AI.**
