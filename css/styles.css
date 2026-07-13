@@ -5,7 +5,7 @@
 :root {
   /* System Typography */
   --font-mono-global: ui-monospace, "SF Mono", "SFMono-Regular", "Cascadia Code", "Cascadia Mono", Menlo, Consolas, "Liberation Mono", monospace;
-  
+   
   /* Color Palette */
   --color-bg-global: #FAFAFA;
   --color-text-global: #1C1C1C;
@@ -19,7 +19,7 @@ body {
    font-family: var(--font-mono-global);
    color: var(--color-text-global);
    background-color: var(--color-bg-global);
-   margin: 0;
+   margin-bottom: 16px;
    padding: 24px;
    box-sizing: border box;
    line-height: 1.5;
@@ -62,6 +62,20 @@ h4 {
   margin-bottom: 12px;
 }
 
+alert-text {
+   position: left;
+   font-size: 13px;
+   font-weight: 300;
+   color: inherit;
+}
+
+alert-text-bold {
+   position: left;
+   font-size: 13px;
+   font-weight: 600;
+   color: inherit;
+}
+
 /* ==========================================================================
    LINKS
    ========================================================================== */
@@ -74,34 +88,33 @@ a {
 }
 
 a:hover {
-  weight: 700;
+  text-weight: bold;
   text-decoration: underline;
 }
 
 
 /* ==========================================================================
-   USER INTERFACE
-   ========================================================================== */
-
-/* ==========================================================================
    ALERTS & NOTIFICATIONS
    ========================================================================== */
 
-alert {
-    position: relative;
+.alert {
+    position: center;
+    max-width: 50%;
     padding: 0.75rem 1.25rem;
     margin-bottom: 1rem;
     border: 1px solid;
     border-radius: 0.25rem;
 }
 
-alert-primary {
-    color: #03478C;
-    background-color: #9FDDF9;
+.alert-primary {
+    position: center;
+    color: #2A5C8D;
+    background-color: #C5EAFB;
     border-color: #0EA5E9;
 }
 
-alert-secondary {
+.alert-secondary {
+    position: center;
     color: #1C1C1C;
     background-color: #FED766;
     border-color: #FED766;
