@@ -74,15 +74,20 @@ a {
 }
 
 a:hover {
-  text-decoration: bold;
+  weight: 700;
+  text-decoration: underline;
 }
 
+
+/* ==========================================================================
+   USER INTERFACE
+   ========================================================================== */
 
 /* ==========================================================================
    ALERTS & NOTIFICATIONS
    ========================================================================== */
 
-.alert {
+alert {
     position: relative;
     padding: 0.75rem 1.25rem;
     margin-bottom: 1rem;
@@ -90,13 +95,13 @@ a:hover {
     border-radius: 0.25rem;
 }
 
-.alert-primary {
+alert-primary {
     color: #03478C;
     background-color: #9FDDF9;
     border-color: #0EA5E9;
 }
 
-.alert-secondary {
+alert-secondary {
     color: #1C1C1C;
     background-color: #FED766;
     border-color: #FED766;
