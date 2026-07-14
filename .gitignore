@@ -1,0 +1,9 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Service-account and key files
+*.pem
+*.key
+secrets/
